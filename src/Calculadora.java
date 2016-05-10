@@ -20,7 +20,8 @@ public class Calculadora {
 
 	}
 
-	public void multiplicar(){
+	public void multiplicar(int valorUm, int valorDois){
+		this.valor = this.valor + (valorUm * valorDois);
 
 	}
 	
